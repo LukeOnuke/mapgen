@@ -22,8 +22,9 @@
                </font>
             </Label>
             <Label layoutX="288.0" layoutY="59.0" text="Author : LukeOnuke" />
-            <Label layoutX="288.0" layoutY="89.0" text="Licence : GNU GPL 2" />
+            <Label layoutX="288.0" layoutY="89.0" text="Licence : GNU GPL 3.0" />
             <Label layoutX="288.0" layoutY="120.0" text="Software : Mapgen (Perlin Noise Generator)" />
+            <Label layoutX="288.0" layoutY="150.0" text="Software Used : Gluon Scene, Netbeans" />
          </children>
     </AnchorPane>
   </children>

@@ -1,4 +1,3 @@
-
 package mapgen;
 
 import java.net.URL;
@@ -232,8 +231,8 @@ public class FXMLDocumentController implements Initializable {
 
         FileChooser fileChooser = new FileChooser(); //Filechooser the class that has the file chooser
         fileChooser.setTitle("Save"); //Title of prompt
-        fileChooser.getExtensionFilters().addAll(                                       //add filter
-                new ExtensionFilter("Image Files", "*.png", "*.jpg", "*.gif", ".bmp"),  //Filters
+        fileChooser.getExtensionFilters().addAll( //add filter
+                new ExtensionFilter("Image Files", "*.png", "*.jpg", "*.gif", "*.bmp"), //Filters
                 new ExtensionFilter("All Files", "*.*"));                               //Filters
         File selectedFile = fileChooser.showSaveDialog(mainStage); //get the file
         if (selectedFile != null) { //if something is selected then
@@ -263,7 +262,10 @@ public class FXMLDocumentController implements Initializable {
         stage.initModality(Modality.APPLICATION_MODAL);
         stage.setTitle("About"); //title
         stage.setScene(new Scene(root1)); //scene
-        
+
+        stage.getIcons().add( //setting the icon
+                new Image(
+                        MapGen.class.getResourceAsStream("icon.png")));
 
         stage.show(); //show window
 
