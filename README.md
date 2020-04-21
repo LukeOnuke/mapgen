@@ -6,10 +6,12 @@ Dowload the latest release from [here](https://github.com/LukeOnuke/mapgen/relea
 
 ## Images
 The program itself
-![](https://i.imgur.com/3OpIKoT.png)
+
+![examle image of the program](https://i.imgur.com/3OpIKoT.png)
 ## 
 Noise it generates
-![](https://i.imgur.com/FX8DtWM.png)
+
+![perlin noise it generates](https://i.imgur.com/FX8DtWM.png)
 ## Legal info
 This program was coded in Netbeans and the GUI was made in [GluonScene](https://gluonhq.com/products/scene-builder/).
 The program is licensed under [GNU GPL 3.0](https://www.gnu.org/licenses/gpl-3.0.en.html).
